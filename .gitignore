@@ -3,5 +3,6 @@
 
 # Whitelist specific files
 !tunisian_datasets.zip
+!README.md
 !.gitignore
 !.gitattributes
