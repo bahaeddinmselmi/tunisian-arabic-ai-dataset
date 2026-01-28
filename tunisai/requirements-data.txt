@@ -1,0 +1,10 @@
+# Minimal deps for data collection on Windows Python 3.14
+python-dotenv==1.0.1
+requests==2.32.3
+
+# Collectors
+tweepy==4.14.0
+praw==7.7.1
+google-api-python-client==2.149.0
+youtube-transcript-api==0.6.2
+playwright==1.56.0

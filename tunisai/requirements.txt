@@ -1,0 +1,35 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+transformers==4.44.2
+accelerate==0.34.2
+bitsandbytes==0.43.1; platform_system != 'Windows'
+datasets==2.21.0
+peft==0.12.0
+trl==0.9.6
+sentencepiece==0.2.0; python_version < '3.14'
+safetensors==0.4.4; python_version < '3.14'
+pydantic==2.9.2
+python-dotenv==1.0.1
+
+# collectors
+tweepy==4.14.0
+praw==7.7.1
+google-api-python-client==2.149.0
+youtube-transcript-api==0.6.2
+requests==2.32.3
+warcio==1.7.4
+trafilatura==1.8.0
+langid==1.1.6
+
+# preprocessing
+emoji==2.14.0
+Unidecode==1.3.8
+datasketch==1.6.5
+pandas==2.2.3
+
+# RAG (optional)
+qdrant-client==1.9.0
+sentence-transformers==3.2.1
+
+# orchestration (optional)
+prefect==2.14.23
